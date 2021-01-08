@@ -1,6 +1,6 @@
 node("packer"){
   stage("Test"){
     checkout scm
-    sh 'bash script.sh'
+    sh 'sh script.sh'
   }
 }
